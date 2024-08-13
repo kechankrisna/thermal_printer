@@ -53,7 +53,7 @@ class ThermalPrinterPlugin : FlutterPlugin, MethodCallHandler, PluginRegistry.Re
     private var isBle: Boolean = false
     private var isScan: Boolean = false
     lateinit var adapter: USBPrinterService
-    private lateinit var bluetoothService: BluetoothService
+    private  var bluetoothService: BluetoothService
 
 
     private val usbHandler = object : Handler(Looper.getMainLooper()) {

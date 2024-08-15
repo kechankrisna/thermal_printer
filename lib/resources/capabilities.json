@@ -221,5 +221,256 @@
       "model": "TP806L",
       "description": ""
     }
+  },
+  "Star_TSP100": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP932",
+      "2": "CP850",
+      "3": "CP860",
+      "4": "CP863",
+      "5": "CP865",
+      "6": "CP1252",
+      "7": "CP866",
+      "8": "CP852",
+      "9": "CP858",
+      "10": "CP874",
+      "11": "ISO_8859-1",
+      "12": "ISO_8859-2",
+      "13": "ISO_8859-3",
+      "14": "ISO_8859-4",
+      "15": "ISO_8859-5",
+      "16": "ISO_8859-6",
+      "17": "ISO_8859-7",
+      "18": "ISO_8859-8",
+      "19": "ISO_8859-9",
+      "20": "ISO_8859-10",
+      "21": "ISO_8859-11",
+      "22": "ISO_8859-12",
+      "23": "ISO_8859-13",
+      "24": "ISO_8859-14",
+      "25": "ISO_8859-15",
+      "26": "ISO_8859-16",
+      "27": "CP1250",
+      "28": "CP1251",
+      "29": "CP1253",
+      "30": "CP1254",
+      "31": "CP1255",
+      "32": "CP1256",
+      "33": "CP1257",
+      "34": "CP1258",
+      "35": "CP866"
+    },
+    "vendor": "Star Micronics",
+    "model": "TSP100",
+    "description": "Star TSP100 ESC/POS thermal receipt printer"
+  },
+  "T1N": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP932",
+      "6": "CP1252",
+      "7": "CP866",
+      "8": "CP852",
+      "9": "CP858",
+      "10": "CP864",
+      "11": "CP775",
+      "12": "CP1250",
+      "13": "CP1251",
+      "14": "CP1253",
+      "15": "CP1254",
+      "16": "CP1255",
+      "17": "CP1256",
+      "18": "CP1257",
+      "19": "CP1258",
+      "20": "ISO_8859-1",
+      "21": "ISO_8859-2",
+      "22": "ISO_8859-3",
+      "23": "ISO_8859-4",
+      "24": "ISO_8859-5",
+      "25": "ISO_8859-6",
+      "26": "ISO_8859-7",
+      "27": "ISO_8859-8",
+      "28": "ISO_8859-9",
+      "29": "ISO_8859-15",
+      "30": "Unknown",
+      "31": "Unknown",
+      "32": "Unknown",
+      "255": "Unknown"
+    },
+    "vendor": "T1N",
+    "model": "Virtual Bluetooth Thermal Printer",
+    "description": "T1N Virtual Bluetooth Thermal Printer profile for ESC/POS commands"
+  },
+  "Epson_TM-T88V": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP932",
+      "2": "CP850",
+      "3": "CP860",
+      "4": "CP863",
+      "5": "CP865",
+      "6": "CP1252",
+      "7": "CP866",
+      "8": "CP852",
+      "9": "CP858",
+      "10": "CP874"
+    },
+    "vendor": "Epson",
+    "model": "TM-T88V",
+    "description": "High-performance thermal receipt printer for retail and hospitality."
+  },
+  "Bixolon_SRP-350III": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP1252",
+      "6": "CP866",
+      "7": "CP852",
+      "8": "CP858",
+      "9": "CP874"
+    },
+    "vendor": "Bixolon",
+    "model": "SRP-350III",
+    "description": "Reliable and versatile thermal printer for POS environments."
+  },
+  "Zebra_ZQ510": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP1252",
+      "6": "CP866",
+      "7": "CP852",
+      "8": "CP858"
+    },
+    "vendor": "Zebra",
+    "model": "ZQ510",
+    "description": "Rugged mobile printer ideal for field service and logistics."
+  },
+  "Star_TSP654II": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP932",
+      "2": "CP850",
+      "3": "CP860",
+      "4": "CP863",
+      "5": "CP865",
+      "6": "CP1252",
+      "7": "CP866",
+      "8": "CP852",
+      "9": "CP858"
+    },
+    "vendor": "Star Micronics",
+    "model": "TSP654II",
+    "description": "Compact and fast thermal printer for retail and hospitality."
+  },
+  "Citizen_CT-S310II": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP1252",
+      "6": "CP866",
+      "7": "CP852",
+      "8": "CP858",
+      "9": "CP874"
+    },
+    "vendor": "Citizen",
+    "model": "CT-S310II",
+    "description": "Eco-friendly thermal printer with high-speed printing."
+  },
+  "POS-X_EVO_HiSpeed": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP1252",
+      "6": "CP866",
+      "7": "CP852",
+      "8": "CP858",
+      "9": "CP874"
+    },
+    "vendor": "POS-X",
+    "model": "EVO HiSpeed",
+    "description": "High-speed thermal receipt printer for POS applications."
+  },
+  "Toshiba_B-FV4D": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP1252",
+      "6": "CP866",
+      "7": "CP852",
+      "8": "CP858"
+    },
+    "vendor": "Toshiba",
+    "model": "B-FV4D",
+    "description": "Compact desktop printer for retail and healthcare."
+  },
+  "Sewoo_LK-P24": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP1252",
+      "6": "CP866",
+      "7": "CP852",
+      "8": "CP858"
+    },
+    "vendor": "Sewoo",
+    "model": "LK-P24",
+    "description": "Portable thermal printer for mobile point-of-sale."
+  },
+  "NCR_RealPOS_7198": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP1252",
+      "6": "CP866",
+      "7": "CP852",
+      "8": "CP858",
+      "9": "CP874"
+    },
+    "vendor": "NCR",
+    "model": "RealPOS 7198",
+    "description": "High-speed thermal printer for retail environments."
+  },
+  "Honeywell_PC42t": {
+    "codePages": {
+      "0": "CP437",
+      "1": "CP850",
+      "2": "CP860",
+      "3": "CP863",
+      "4": "CP865",
+      "5": "CP1252",
+      "6": "CP866",
+      "7": "CP852",
+      "8": "CP858"
+    },
+    "vendor": "Honeywell",
+    "model": "PC42t",
+    "description": "Versatile desktop label printer for retail and manufacturing."
   }
 }

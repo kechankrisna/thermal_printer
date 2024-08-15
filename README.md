@@ -57,8 +57,8 @@ In build.gradle set
 ```
     defaultConfig {
         ...
-        minSdkVersion 19
-        targetSdkVersion 33
+        minSdkVersion 24
+        targetSdkVersion 34
         ...
 ```
 

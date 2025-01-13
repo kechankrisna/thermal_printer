@@ -1,4 +1,6 @@
-# thermal_printer
+# thermal_printer_forked
+As the original has not received any update this one is meant to resolve issues by merging every solution contributed.
+I love this package, I work with this package but the maintenance of it is suffering from the OG.
 
 [![Pub Version](https://img.shields.io/badge/pub-v1.0.5-green)](https://pub.dev/packages/thermal_printer)
 

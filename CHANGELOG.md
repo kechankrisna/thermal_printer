@@ -1,3 +1,7 @@
+## 1.0.8
+
+* android minSdkVersion to 21
+
 ## 1.0.7
 
 * fixed iOS build

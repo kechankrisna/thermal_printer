@@ -1,3 +1,8 @@
+## 1.0.7
+
+* fixed iOS build
+* added some capabilities for printers
+
 ## 1.0.6
 #### FORKED PROJECT
 * fixed Bt discovery issue with android 14 version

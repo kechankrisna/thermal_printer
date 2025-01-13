@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:thermal_printer/discovery.dart';
-import 'package:thermal_printer/thermal_printer.dart';
+import 'package:thermal_printer_plus/discovery.dart';
+import 'package:thermal_printer_plus/thermal_printer.dart';
 
 class UsbPrinterInput extends BasePrinterInput {
   final String? name;

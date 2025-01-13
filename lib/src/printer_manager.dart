@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:thermal_printer/thermal_printer.dart';
+import 'package:thermal_printer_plus/thermal_printer.dart';
 
 enum PrinterType { bluetooth, usb, network }
 

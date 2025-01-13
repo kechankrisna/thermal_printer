@@ -3,10 +3,10 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'package:dart_ping/dart_ping.dart';
 import 'package:flutter/material.dart';
-import 'package:thermal_printer/src/models/printer_device.dart';
+import 'package:thermal_printer_plus/src/models/printer_device.dart';
 import 'package:network_info_plus/network_info_plus.dart';
-import 'package:thermal_printer/discovery.dart';
-import 'package:thermal_printer/printer.dart';
+import 'package:thermal_printer_plus/discovery.dart';
+import 'package:thermal_printer_plus/printer.dart';
 import 'package:ping_discover_network_forked/ping_discover_network_forked.dart';
 
 class TcpPrinterInput extends BasePrinterInput {

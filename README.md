@@ -1,4 +1,4 @@
-# thermal_printer_forked
+# thermal_printer_plus
 As the original has not received any update this one is meant to resolve issues by merging every solution contributed.
 I love this package, I work with this package but the maintenance of it is suffering from the OG.
 

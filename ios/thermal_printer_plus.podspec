@@ -3,8 +3,8 @@
 # Run `pod lib lint thermal_printer.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'thermal_printer'
-  s.version          = '1.0.0'
+  s.name             = 'thermal_printer_plus'
+  s.version          = '1.0.6'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
 A new Flutter plugin project.
@@ -17,7 +17,7 @@ A new Flutter plugin project.
   s.public_header_files = 'Classes/**/*.h'
   s.static_framework = true
   s.dependency 'Flutter'
-  s.platform = :ios, '9.0'
+  s.platform = :ios, '12.0'
 
   # Import all * .a libraries in the Classes folder
   s.frameworks = ["SystemConfiguration", "CoreTelephony","WebKit"]

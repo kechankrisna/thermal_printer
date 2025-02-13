@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:enum_to_string/enum_to_string.dart';
-import 'package:thermal_printer/printer.dart';
+import 'package:thermal_printer_plus/printer.dart';
 // import 'package:flutter_star_prnt/flutter_star_prnt.dart';
 
 enum StarEmulation { StarPRNT, StarLine, StarGraphic }

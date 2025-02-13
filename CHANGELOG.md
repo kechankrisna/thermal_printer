@@ -1,3 +1,17 @@
+## 1.0.8
+
+* android minSdkVersion to 21
+
+## 1.0.7
+
+* fixed iOS build
+* added some capabilities for printers
+
+## 1.0.6
+#### FORKED PROJECT
+* fixed Bt discovery issue with android 14 version
+* fix issue building android version
+
 ## 1.0.5
 
 * fixed windows build

@@ -1,6 +1,6 @@
 import 'dart:core';
 import 'dart:typed_data';
-import 'package:thermal_printer/printer.dart';
+import 'package:thermal_printer_plus/printer.dart';
 import 'package:image/image.dart' as img;
 
 import '../utils.dart';

@@ -1,4 +1,4 @@
-#include "include/thermal_printer_plus/thermal_printer_plus_plugin.h"
+#include "include/thermal_printer_plus/thermal_printer_plugin.h"
 
 // This must be included before many other Windows headers.
 #include <windows.h>

@@ -1,3 +1,7 @@
+## 1.0.9
+
+* fixed windows build
+
 ## 1.0.8
 
 * android minSdkVersion to 21

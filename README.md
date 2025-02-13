@@ -1,8 +1,8 @@
 # thermal_printer_plus
-As the original has not received any update this one is meant to resolve issues by merging every solution contributed.
-I love this package, I work with this package but the maintenance of it is suffering from the OG.
+As the original [thermal_printer](https://pub.dev/packages/thermal_printer) has not received any update this one is meant to resolve issues by merging every solution contributed.
+I love this package, I work with this package but the maintenance of it is suffering from the OG, Any PR are welcome.
 
-[![Pub Version](https://img.shields.io/badge/pub-v1.0.5-green)](https://pub.dev/packages/thermal_printer)
+[![Pub Version](https://img.shields.io/badge/pub-v1.0.11-green)](https://pub.dev/packages/thermal_printer_plus)
 
 A library to discover printers, and send printer commands.
 
@@ -88,6 +88,24 @@ put the following code in AndroidManifest
 
 ## iOS
 Allow to connect bluetooth (BLE) and network devices
+
+Add in Info.plist
+```xml
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>We need Bluetooth to connect to devices printer and print receipt.</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>We need Bluetooth to connect and print receipt.</string>
+```
+
+To discover network print don't forget to register dartPing at before runApp method
+
+```dart
+// Register DartPingIOS
+      if (Platform.isIOS) {
+          DartPingIOS.register();
+      }
+```
+
 
 ## Windows
 Allow to connect USB and network devices

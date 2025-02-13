@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'thermal_printer_plus'
-  s.version          = '1.0.6'
+  s.version          = '1.0.11'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
 A new Flutter plugin project.

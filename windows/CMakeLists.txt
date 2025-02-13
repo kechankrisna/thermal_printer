@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 3.15)
-set(PROJECT_NAME "thermal_printer")
+set(PROJECT_NAME "thermal_printer_plus")
 project(${PROJECT_NAME} LANGUAGES CXX)
 
 # This value is used when generating builds using this plugin, so it must
 # not be changed
-set(PLUGIN_NAME "thermal_printer_plugin")
+set(PLUGIN_NAME "thermal_printer_plus_plugin")
 
 add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 
 add_library(${PLUGIN_NAME} SHARED
-  "thermal_printer_plugin.cpp"
+  "thermal_printer_plus_plugin.cpp"
   "include/printer.cpp"
   "include/printer.h"
   "include/utils.hpp"

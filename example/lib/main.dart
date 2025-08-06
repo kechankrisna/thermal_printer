@@ -57,6 +57,7 @@ class _MyAppState extends State<MyApp> {
     'assets/double_long_receipt.png',
     'assets/receipt.png',
   ];
+  late PaperSize paperSize = PaperSize.mm58;
 
   @override
   void initState() {
@@ -198,7 +199,7 @@ class _MyAppState extends State<MyApp> {
     final profile = await CapabilityProfile.load(name: 'XP-N160I');
 
     // PaperSize.mm80 or PaperSize.mm58
-    final generator = Generator(PaperSize.mm58, profile);
+    final generator = Generator(paperSize, profile);
     bytes += generator.setGlobalCodeTable('CP1252');
     bytes += generator.text('Test Print',
         styles: const PosStyles(align: PosAlign.left));
@@ -223,7 +224,7 @@ class _MyAppState extends State<MyApp> {
     final profile = await CapabilityProfile.load(name: 'XP-N160I');
 
     // PaperSize.mm80 or PaperSize.mm58
-    final generator = Generator(PaperSize.mm58, profile);
+    final generator = Generator(paperSize, profile);
     bytes += generator.setGlobalCodeTable('CP1252');
     bytes += generator.text('Test Print',
         styles: const PosStyles(align: PosAlign.left));
@@ -296,7 +297,7 @@ class _MyAppState extends State<MyApp> {
     }
     final profile = await CapabilityProfile.load();
 
-    final generator = Generator(PaperSize.mm58, profile);
+    final generator = Generator(paperSize, profile);
     _printEscPos(bytes, generator);
   }
 
@@ -305,7 +306,7 @@ class _MyAppState extends State<MyApp> {
     final ByteData _data = await rootBundle.load(assetPath);
     final Uint8List _imgBytes = _data.buffer.asUint8List();
     var data = await generateImageToESCByte(_imgBytes,
-        paperSize: PaperSize.mm58, autoCut: false, feedLine: 0, beepN: 0);
+        paperSize: paperSize, autoCut: false, feedLine: 0, beepN: 0);
 
     return data;
   }
@@ -433,6 +434,7 @@ class _MyAppState extends State<MyApp> {
         break;
       case PrinterType.bluetooth:
         bytes += generator.cut();
+        print("isBle ${bluetoothPrinter.isBle ?? false}");
         await printerManager.connect(
             type: bluetoothPrinter.typePrinter,
             model: BluetoothPrinterInput(
@@ -553,6 +555,32 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ],
                     ),
+                  ),
+                  DropdownButtonFormField<PaperSize>(
+                    value: paperSize,
+                    decoration: const InputDecoration(
+                      prefixIcon: Icon(
+                        Icons.format_size,
+                        size: 24,
+                      ),
+                      labelText: "Paper Size",
+                      labelStyle: TextStyle(fontSize: 18.0),
+                      focusedBorder: InputBorder.none,
+                      enabledBorder: InputBorder.none,
+                    ),
+                    items: [PaperSize.mm58, PaperSize.mm80]
+                        .map((e) => DropdownMenuItem<PaperSize>(
+                              value: e,
+                              child: Text(e.width.toString()),
+                            ))
+                        .toList(),
+                    onChanged: (PaperSize? value) {
+                      if (value != null) {
+                        setState(() {
+                          paperSize = value;
+                        });
+                      }
+                    },
                   ),
                   DropdownButtonFormField<PrinterType>(
                     value: defaultPrinterType,

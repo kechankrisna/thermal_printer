@@ -4,7 +4,7 @@ PODS:
     - Flutter
   - network_info_plus (0.0.1):
     - Flutter
-  - thermal_printer_plus (1.0.6):
+  - thermal_printer_plus (0.0.1):
     - Flutter
 
 DEPENDENCIES:
@@ -24,11 +24,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/thermal_printer_plus/ios"
 
 SPEC CHECKSUMS:
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_icmp_ping: 2b159955eee0c487c766ad83fec224ae35e7c935
-  network_info_plus: 6d0c3eb8367b8164fa3fb0c19875e3f59d49697f
-  thermal_printer_plus: cbb9818595ad92174d0972828ee0dd3e6ccd1b99
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_icmp_ping: 47c1df3440c18ddd39fc457e607bb3b42d4a339f
+  network_info_plus: 16d8832ab43b7bc22b168d76fffcad9da35486d2
+  thermal_printer_plus: fe177aedbde02f14eeeeb3b195c35b8f3a0cdc45
 
 PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

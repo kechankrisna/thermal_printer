@@ -21,9 +21,15 @@ A new Flutter plugin project.
 
   # Import all * .a libraries in the Classes folder
   s.frameworks = ["SystemConfiguration", "CoreTelephony","WebKit"]
-  s.vendored_libraries = '**/*.a'
+  
+  # Only include vendored libraries for device builds, not simulator
+  s.ios.vendored_libraries = 'libGSDK.a'
 
   # Flutter.framework does not contain a i386 slice.
-  # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  s.pod_target_xcconfig = { 
+    'DEFINES_MODULE' => 'YES', 
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64',
+    'LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]' => ''
+  }
   # s.swift_version = '5.0'
 end
